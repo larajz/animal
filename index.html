@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title> Animal Conservation </title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div style="padding-left:16px">
+        <h2>The enDanger Zone </h2>
+        <p></p>
+      </div>
+
+
+    <!-- NAVIGATION BAR STARTS HERE -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="land.html">Land</a>
+      <a href="water.html">Water</a>
+      <a href="air.html">Air</a>
+      <a href="certificate-index.html">Certificate</a>
+      <a href="resources.html">Resources</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- NAVIGATION BAR ENDS HERE -->
+
+
+
+
+
+
+
+    </html>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+
+<!-- SLIDESHOW -->
+<h2 class="w3-center">Welcome to the enDanger Zone!</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://images.squarespace-cdn.com/content/v1/546d61b5e4b049f0b10b95c5/1504727977158-2E5HQFARFIQERUJ7BUIW/ke17ZwdGBToddI8pDm48kJFC3MZftJfmAhOtDjqDy41Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIaToc8BoXxqN8RIn1MSqJCi2ZqeocrgEud4B5a5gaXB0KMshLAGzx4R3EDFOm1kBS/Plover.jpg?format=1500w" style="width:100%">
+  <img class="mySlides" src="https://images.pexels.com/photos/1145513/pexels-photo-1145513.jpeg?cs=srgb&dl=animal-close-up-endangered-1145513.jpg&fm=jpg" style="width:100%">
+  <img class="mySlides" src="https://images.pexels.com/photos/302271/pexels-photo-302271.jpeg?cs=srgb&dl=adventure-animal-photography-conifer-302271.jpg&fm=jpg" style="width:100%">
+  <img class="mySlides" src="https://images.pexels.com/photos/634255/pexels-photo-634255.jpeg?cs=srgb&dl=adorable-animal-baby-634255.jpg&fm=jpg" style="width:100%">
+   <img class="mySlides" src="https://marinebio.org/wp-content/uploads/species/Caretta-caretta/1.jpg" style="width:100%">
+  <img class="mySlides" src="https://www.mmc.gov/wp-content/uploads/monkseal_closeup.jpg" style="width:100%">
+  <img class="mySlides" src="https://www.eastbaytimes.com/wp-content/uploads/2016/07/20120309_021020_ecct0913sfbnwrc77.jpg?w=512" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<h6 class="ending"> <b>Brought to you by Kailina, Rose, and Lara.</b></h6>
+
+
+</html>
